@@ -1,6 +1,6 @@
 # LinkedIn Clone
 
-Built using React.js, Redux, Firebase, React Player & Styled-Components
+Built using React.js, Redux, Firebase, React Player & Styled-Components. Visit the live site at [Linkedin-Clone](linkedin-clone.up.railway.app)
 
 ## Features
 
