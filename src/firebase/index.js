@@ -2,10 +2,9 @@ import firebase from "firebase/app";
 import "firebase/auth";
 import "firebase/firestore";
 import "firebase/storage";
-import { firebaseConfig } from "./config";
 import { environmentConfig } from "./environmentConfig";
 
-const configFile = environmentConfig || firebaseConfig;
+const configFile = environmentConfig;
 
 firebase.initializeApp(configFile);
 const db = firebase.firestore();
