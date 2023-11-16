@@ -58,3 +58,11 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+## Acknowledgements
+
+Thanks to these creators for their tutorials and permission to use their code. If you want to build a similar project, check out these links:
+
+-   [Free Code Camp on Youtube](https://www.youtube.com/watch?v=HimR8Xtz17U&pp=ygUObGlua2VkaW4gY2xvbmU%3D)
+-   [Rafeh Qazi](https://github.com/CleverProgrammers)
+-   [Sonny Sangha's Youtube Channel](https://www.youtube.com/@SonnySangha/featured)
