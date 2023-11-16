@@ -3,8 +3,11 @@ import "firebase/auth";
 import "firebase/firestore";
 import "firebase/storage";
 import { firebaseConfig } from "./config";
+import { environmentConfig } from "./environmentConfig";
 
-firebase.initializeApp(firebaseConfig);
+const configFile = environmentConfig || firebaseConfig;
+
+firebase.initializeApp(configFile);
 const db = firebase.firestore();
 const auth = firebase.auth();
 const provider = new firebase.auth.GoogleAuthProvider();
