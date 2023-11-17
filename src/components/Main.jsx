@@ -207,7 +207,7 @@ function Main(props) {
 
 	useEffect(() => {
 		props.getArticles();
-	}, []);
+	}, [props]);
 
 	const clickHandler = (event) => {
 		event.preventDefault();

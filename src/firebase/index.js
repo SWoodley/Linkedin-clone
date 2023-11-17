@@ -10,7 +10,7 @@ const configFile = {
     storageBucket: `${process.env.STORAGE_BUCKET}`,
     messagingSenderId: `${process.env.MESSAGING_SENDER_ID}`,
     appId: `${process.env.APP_ID}`
-}
+};
 
 firebase.initializeApp(configFile);
 const db = firebase.firestore();
